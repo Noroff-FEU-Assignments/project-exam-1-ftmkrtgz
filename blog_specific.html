@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/styles.css" />
+    <link rel="stylesheet" href="Css/component/blog_specific.css" />
+    <script
+      src="https://kit.fontawesome.com/ce1b7138a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Hotjar Tracking Code for Chid Developmet -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3643773, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <script defer type="module" src="Js/blog_specific.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/145714611_padded_logo.png" alt="Child Developmet"
+          /></a>
+        </div>
+        <div class="menu-name">
+          <ul class="navbar-list" id="navbar-list-hamburger">
+            <li class="list-item"><a href="index.html">HOME</a></li>
+            <li class="list-item"><a href="blog_lists.html">BLOGS</a></li>
+            <li class="list-item"><a href="about.html">ABOUT</a></li>
+            <li class="list-item"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <ul>
+            <li class="hamburger-list">
+              <input type="text" placeholder="Search..." class="search" />
+            </li>
+            <li class="hamburger-list">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <a href="#navbar-list-hamburger"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <div class="close">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="blog-specific"></div>
+      <hr />
+      <div class="share">
+        <div class="share-list">
+          <i class="fa-solid fa-share"></i>
+        </div>
+        <div class="share-list">Share This Post</div>
+        <div class="share-list">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-square-google-plus"></i>
+          <i class="fa-regular fa-envelope"></i>
+        </div>
+      </div>
+      <hr />
+      <div class="writer">
+        <p>
+          <i class="fa-solid fa-user"></i>
+          Writer <br />
+          <span class="author">Gizem Passion Lives</span> <br />
+          Psychologist-Familiy Counselor
+        </p>
+      </div>
+      <hr />
+      <div class="comments">
+        <p><i class="fa-solid fa-comment-dots"></i> Comments</p>
+      </div>
+      <hr />
+      <div class="send-comment">
+        <p>Comment</p>
+        <p>
+          Your e-mail account will not be published. Required fields are marked
+          with *
+        </p>
+        <label for="explanation">
+          Comment* <br />
+          <textarea
+            name="explanation"
+            id="explanation"
+            cols="30"
+            rows="11"
+          ></textarea>
+        </label>
+        <br />
+        <label for="name">
+          Name*<br />
+          <input id="name" name="name&surname" type="text" />
+        </label>
+        <br />
+        <label for="mail">
+          Mail* <br />
+          <input id="mail" name="e-mail" type="email" />
+        </label>
+        <br /><br />
+        <label for="read">
+          <input type="checkbox" name="rememberme" id="read" />
+          Save my name, email and website in this browser for the next time I
+          comment.
+        </label>
+        <br /><br />
+        <button class="button-contact">Share Comment</button>
+      </div>
+    </main>
+    <footer>
+      <hr class="footer-line" />
+      <div class="sosial">
+        <h2>FOLLOW US</h2>
+        <a href="https://www.facebook.com" target="_blank"
+          ><img src="images/icon_facebook-f.png" alt="Facebook"
+        /></a>
+        <a href="https://twitter.com/" target="_blank"
+          ><img src="images/icon_twitter.png" alt="Twitter"
+        /></a>
+        <a href="https://www.linkedin.com/" target="_blank"
+          ><img src="images/icon_linkedin-alt.png" alt="Linkedin"
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="images/icon_instagram.png" alt="Instagram"
+        /></a>
+      </div>
+      <hr class="footer-line" />
+      <p class="footer-end">© 2023 Child Development. All rights reserved</p>
+    </footer>
+  </body>
+</html>

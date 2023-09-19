@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/styles.css" />
+    <link rel="stylesheet" href="Css/component/contact.css" />
+    <script
+      src="https://kit.fontawesome.com/ce1b7138a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Hotjar Tracking Code for Chid Developmet -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3643773, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <script defer type="module" src="Js/contact.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/145714611_padded_logo.png" alt="Child Developmet"
+          /></a>
+        </div>
+        <div class="menu-name">
+          <ul class="navbar-list" id="navbar-list-hamburger">
+            <li class="list-item"><a href="index.html">HOME</a></li>
+            <li class="list-item"><a href="blog_lists.html">BLOGS</a></li>
+            <li class="list-item"><a href="about.html">ABOUT</a></li>
+            <li class="list-item background">
+              <a href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="search">
+          <ul>
+            <li class="hamburger-list">
+              <input type="text" placeholder="Search..." class="search" />
+            </li>
+            <li class="hamburger-list">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <a href="#navbar-list-hamburger"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <div class="close">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="contact">
+        <img src="images/contact.jpg" alt="Baby and adult holding hands" />
+        <div class="contact-form">
+          <h4>CONTACT FORM</h4>
+          <p class="contact-defn">
+            You can contact us by filling out the form.
+          </p>
+          <label for="name">
+            Name & Surname <br />
+            <input id="contact-name" name="name&surname" type="text" />
+            <br />
+          </label>
+          <p class="contact-error" id="NameError">
+            Name should be more than 5 characters long
+          </p>
+          <label for="mail">
+            E-post <br />
+            <input id="contact-mail" name="e-mail" type="email" />
+            <br />
+          </label>
+          <p class="contact-error" id="emailError">
+            Must be a valid email adress
+          </p>
+          <label for="subject">
+            Subject <br />
+            <input id="contact-subject" name="subject" type="text" />
+            <br />
+          </label>
+          <p class="contact-error" id="subjectError">
+            Subject should be more than 15 characters long
+          </p>
+          <label for="explanation">
+            Message <br />
+            <textarea
+              name="explanation"
+              id="contact-explanation"
+              cols="30"
+              rows="11"
+            ></textarea>
+          </label>
+          <p class="contact-error" id="messageError">
+            Message has to be more than 25 character
+          </p>
+          <button class="submit">Submit</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <hr class="footer-line" />
+      <div class="sosial">
+        <h2>FOLLOW US</h2>
+        <a href="https://www.facebook.com" target="_blank"
+          ><img src="images/icon_facebook-f.png" alt="Facebook"
+        /></a>
+        <a href="https://twitter.com/" target="_blank"
+          ><img src="images/icon_twitter.png" alt="Twitter"
+        /></a>
+        <a href="https://www.linkedin.com/" target="_blank"
+          ><img src="images/icon_linkedin-alt.png" alt="Linkedin"
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="images/icon_instagram.png" alt="Instagram"
+        /></a>
+      </div>
+      <hr class="footer-line" />
+      <p class="footer-end">© 2023 Child Development. All rights reserved</p>
+    </footer>
+  </body>
+</html>

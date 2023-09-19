@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/styles.css" />
+    <link rel="stylesheet" href="Css/component/blog_list.css" />
+    <script
+      src="https://kit.fontawesome.com/ce1b7138a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Hotjar Tracking Code for Chid Developmet -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3643773, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <script defer type="module" src="Js/blog_lists.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/145714611_padded_logo.png" alt="Child Developmet"
+          /></a>
+        </div>
+        <div class="menu-name">
+          <ul class="navbar-list" id="navbar-list-hamburger">
+            <li class="list-item"><a href="index.html">HOME</a></li>
+            <li class="list-item background">
+              <a href="blog_lists.html">BLOGS</a>
+            </li>
+            <li class="list-item"><a href="about.html">ABOUT</a></li>
+            <li class="list-item"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <ul>
+            <li class="hamburger-list">
+              <input type="text" placeholder="Search..." class="search" />
+            </li>
+            <li class="hamburger-list">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <a href="#navbar-list-hamburger"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <div class="close">
+          <a href="#"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>ALL BLOG POSTS</h1>
+      <div class="loader"></div>
+      <div class="error-message"></div>
+      <div class="posts"></div>
+      <button class="load-more">Load More</button>
+    </main>
+    <footer>
+      <hr class="footer-line" />
+      <div class="sosial">
+        <h2>FOLLOW US</h2>
+        <a href="https://www.facebook.com" target="_blank"
+          ><img src="images/icon_facebook-f.png" alt="Facebook"
+        /></a>
+        <a href="https://twitter.com/" target="_blank"
+          ><img src="images/icon_twitter.png" alt="Twitter"
+        /></a>
+        <a href="https://www.linkedin.com/" target="_blank"
+          ><img src="images/icon_linkedin-alt.png" alt="Linkedin"
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="images/icon_instagram.png" alt="Instagram"
+        /></a>
+      </div>
+      <hr class="footer-line" />
+      <p class="footer-end">© 2023 Child Development. All rights reserved</p>
+    </footer>
+  </body>
+</html>

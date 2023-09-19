@@ -1,0 +1,102 @@
+.blog-specific{
+    width: 80%;
+    background-color: rgb(255, 237, 254);
+    margin: auto;
+    padding-top: 5px;
+}
+.blog-specific img{
+    width: 70%;
+    height:auto ;
+    margin-left: 15%;
+}
+.blog-specific h1, .blog-specific h5{
+    color:#3172D3
+}
+.blog-specific p{
+    margin:auto 1.5vw;
+    padding-bottom:2em
+}
+
+.wp-block-heading{
+    margin-left: 2vw;
+}
+.share{
+    display:flex;
+    margin-left:6vw;
+}
+
+.share-list{
+    margin-left:2vw
+}
+
+.fa-share, .fa-user, .fa-comment-dots, .fa-square-facebook, .fa-square-twitter, .fa-instagram, .fa-square-google-plus, .fa-envelope{
+    font-size: 3vw;
+}
+
+.fa-share, .fa-user, .fa-comment-dots{
+    color: gray;
+}
+.fa-square-facebook{
+    color:rgb(37, 80, 209)
+}
+.fa-square-twitter{
+    color:rgb(10, 137, 248)
+}
+.fa-instagram{
+    color:rgb(148, 73, 23)
+}
+.fa-square-google-plus{
+    color:rgba(203, 22, 22, 0.721)
+}
+.fa-envelope{
+    color:rgb(192, 19, 19)
+}
+.author{
+    color:rgb(80, 77, 77)
+}
+.writer, .comments, .send-comment{
+    margin-left: 7.5vw;
+}
+#explanation, #name, #mail{
+    width: 70%;
+    border-color: rgba(211, 211, 211, 0.363);
+    border-radius: 2em;
+} 
+#name, #mail{
+    height: 3vw;
+}
+#read{
+   width: 2vw;
+   height: 2vw;
+}
+.button-contact{
+    background-color: rgb(255, 237, 254);
+    border:1px solid black;
+    font-size: 2vw;
+    border-radius: 2vw;
+    
+    padding:0 3vw;
+}
+figure{
+    position:relative
+}
+
+.modal-section {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top:0px;
+    box-sizing: border-box;
+    background-color: #00000080;
+  }
+
+  .modal-section img {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }

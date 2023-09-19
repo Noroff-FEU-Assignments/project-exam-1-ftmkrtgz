@@ -1,0 +1,48 @@
+:root {
+    --primary-colour: #b3193d;
+}
+
+.error{
+    border: 1px solid var(--primary-colour);
+    color:var(--primary-colour);
+    padding: 1em;
+    font-size: 24px;
+    text-align: center;
+}
+.error:after{
+    content:" An error occurred.";
+}
+.loader{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.75s, visibility 3s;
+}
+
+.loader--hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after{
+    content:"";
+    width:75px;
+    height: 75px;
+    border:5px solid  #EECBEC;
+    border-top-color: #3172D3;
+    border-radius: 50%;
+    animation:loading 0.75s ease infinite;
+}
+@keyframes loading{
+    from {
+        transform:rotate(0turn);
+    }
+    to {
+        transform:rotate(1turn);
+    }
+}

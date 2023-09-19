@@ -1,0 +1,59 @@
+.contact{
+    margin-top: 3vw;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: center;
+}
+.contact img{
+        width: 100%;
+        height: 100%; 
+}
+.contact-form{
+    height: 100%;
+    background-color:#F5F5F5 ;
+    padding-left:4.2vw;
+    line-height: 2vw;
+}
+#contact-subject, #contact-name, #contact-mail{
+    width:89%; 
+    height:2.8vw
+}
+#contact-explanation{
+    width: 89%;
+}
+
+.contact-form h4{
+    margin-left: 0;
+}
+.contact-defn{
+    margin-top: 0;
+}
+.submit{
+    background-color: rgba(238, 203, 236, 50%);
+    font-size: 2vw;
+    margin-left: 28vw;
+    margin-top: 5px;
+    width: 9vw;
+    height: 3.8vw;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.contact-error {
+    display: none;
+    color: red;
+    text-align: center;
+    margin-top:0;
+    bottom: 0;
+  }
+
+  @media all and (max-width:900px){
+    .contact{
+        grid-template-columns: 90%;
+        font-size: 1.6vw;
+    }
+
+    .submit{
+        margin:auto 0
+    }
+  }

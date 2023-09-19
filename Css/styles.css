@@ -1,4 +1,320 @@
-img{
-    height: 200px;
-    width: 200px;
+@import url(component/about.css);
+@import url(component/blog_list.css);
+@import url(component/blog_specific.css);
+@import url(component/contact.css);
+@import url(ui.css);
+
+
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size:1.3vw;
+    line-height: 1.5;
+}
+
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: 7%;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.logo{
+    display: flex;
+    align-items: center;   
+}
+.logo a img{
+    width:14vw
+}
+
+.list-item, .hamburger-list{
+    width: 10vw;
+    display: inline-block;
+    text-align: center; 
+    margin-right:2vw;
+}
+
+.list-item:hover{
+    color:gray
+}
+.hamburger-list input{
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    border-color: black;
+    border-style:solid;     
+}
+
+a{ 
+    text-decoration: none;
+    color:unset;
+}
+
+.background{
+    background: rgba(238, 203, 236, 50%);
+    border-radius: 1vw;
+}
+
+.menu-name ul{
+    list-style-type: none ;
+}
+
+.fa-magnifying-glass{
+    margin-left: -90%;
+    top: auto;
+    font-size: 90%;
+}
+
+.hamburger{
+    position: absolute;
+    margin-left: 75%;
+    display: none;
+}
+
+.close{
+    position: absolute;
+    display: none;
+    color: black;
+}
+
+.hamburger img, .close img{
+    height: 6vw;
+}
+
+h2{
+    font-weight: normal;
+    margin-left: 3.5vw;
+    font-size: 2.1vw;
+}
+
+hr{
+    width: 98%;
+}
+
+.sosial{
+    text-align: center;
+}
+
+.sosial h2{
+    margin-bottom:0.5vw;
+}
+
+.sosial img{
+    height:3.5vw;
+    margin:0 1.1vw 
+}
+
+.footer-line{
+    margin-top:2.8vw
+}
+
+.footer-end{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1vw;
+}
+
+/* main section at home */
+
+.first-section{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 5%;
+    justify-content: center;
+}
+
+.first-section img{
+    width: 100%;
+    border:1px solid lightgray;
+}
+
+.go-about{
+    margin-top: 5vw;
+}
+
+.read-more{
+    background-color: rgba(238, 203, 236, 50%);
+    font-size: 2vw;
+    margin-left: 60%;
+    margin-top: 10%;
+    width: 30%;
+    height: 10%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.read-book{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content:center;
+}
+.read-book img{
+    width: 100%;
+}
+.read-content{
+    margin-right: 7%;
+    margin-left: 2%;
+}
+
+.added-content{
+    width: 98%;
+    margin:0 auto
+}
+
+.all-content{
+    background-color:rgba(238, 203, 236, 50%) ;
+    margin:3% 8%;
+    border: 1px solid lightgrey;
+}
+.all-content h2{
+    text-align: center;
+    font-weight: 600;
+}
+.expert{
+    display: flex;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    margin-left: 8%;
+    background-color: rgba(238, 203, 236, 50%) ;
+    padding-left: 2%;
+    margin-right: 8%;
+    border: 1px solid lightgrey;
+}
+
+.expert img{
+    width: 90%;
+    height: 23%;
+    border-radius: 50%;
+}
+.alexandra, .sandra{
+    display: grid;
+    grid-template-columns: 25% 65%;
+    margin-top: 2%;
+}
+
+.fame{
+    font-style: italic;
+}
+
+.read-book h3, .expert h3, .added-content h3{
+    color:#3172D3
+
+}
+
+/* Caroussel*/
+.carousel h2{
+   text-align: center;
+   font-weight: 600;
+   }
+   .carousel-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+   }
+           
+   .carousel-wrapper {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    width:100%;
+    height: 90%;
+    gap: 1%;
+     
+   }   
+   
+.leftBtn, .rightBtn {
+    margin-top: 20%;
+    transform: translateY(-55%);
+    z-index: 1;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:5vw;
+    padding: 1rem;
+} 
+   .carousel-items {
+    flex: 0 0 32.4%; 
+    background-color: rgba(238, 203, 236, 50%) ;  
+    border: 1px solid lightgrey;    
+   }
+   .carousel-items p{
+    margin:0 3px
+   }
+   .carousel-items img{
+    width: 100%;
+    height: 50%;
+   }
+   .carousel-items h2{
+    color:#3172D3;
+    font-size: 2vw;
+    margin-left: 0;
+    
+   }
+    
+/* Hamburger menu */
+@media all and (max-width:690px){
+.hamburger{
+        display: block;
+    }
+.fa-bars, .fa-xmark{
+    font-size: 30px;
+}
+.fa-xmark{
+    color:white
+}
+.navbar-list, .fa-magnifying-glass{
+    display: none;
+}
+.search input{
+width: 30vw ;
+margin-left:6vw
+}
+
+#navbar-list-hamburger{
+    position:absolute;
+    z-index:1000;
+    top:0;
+    right:0;
+    width:100%;
+    height:50%;
+    overflow:hidden;
+    background-color:  rgba(238, 203, 236);
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 0;
+    transform: translateX(-900px);
+    padding-top: 20vw;
+}
+.close{
+    display: block;
+    z-index:1001; 
+    left: 2vw;
+}
+#navbar-list-hamburger:target{
+    transform:translateX(0)
+}
+.list-item a{
+    display: block; 
+    font-size: 5vw;
+}
+.list-item{
+    width:37vw
+} 
+.read-more{
+    width: 40%;
+    height: 15%;
+}
+
 }

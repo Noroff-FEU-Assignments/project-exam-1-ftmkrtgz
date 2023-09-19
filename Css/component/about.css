@@ -1,0 +1,26 @@
+
+
+.about-p{
+    font-style: italic;
+}
+
+.about-hr{
+    width: 80%;
+    margin-left: 0;
+}
+
+.content-about{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.about-img img{
+    width: 95%;
+    border: 1px solid lightgray;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.about-text{
+    margin-left: 10px;
+    width: 95%;
+}
