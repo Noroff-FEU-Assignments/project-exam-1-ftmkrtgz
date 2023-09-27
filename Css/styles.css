@@ -12,7 +12,6 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size:1.3vw;
     line-height: 1.5;
 }
 
@@ -92,7 +91,7 @@ a{
 h2{
     font-weight: normal;
     margin-left: 3.5vw;
-    font-size: 2.1vw;
+    font-size: 2vw;
 }
 
 hr{
@@ -263,15 +262,26 @@ hr{
 /* Hamburger menu */
 @media all and (max-width:768px){
  body{
-    font-size: 16px;
+    overflow-x: hidden;
  }
  h1{
-    font-size: 16px;
+    font-size: 4vw
  }
+ .logo a img{
+    width: 100px;
+    margin-top: 8px;
+}
+
+.sosial img{
+    height:40px;
+}
 
 }
 
-@media all and (max-width:690px){
+@media all and (max-width:700px){
+    h1{
+        font-size: 28px
+     }
 .hamburger{
         display: block;
     }
@@ -327,22 +337,28 @@ margin-left:6vw
 }
 }
 
-@media all and (max-width:768px){
-.logo a img{
-    width: 100px;
-    margin-top: 8px;
-}
-.about-img{
-    margin-top: -8px;
-}
-.sosial img{
-    height:40px;
-}
-h1{
-    font-size: 20px;
-}
+@media all and (max-width:480px){
+    .sosial img{
+        height:35px;
+    }
+    .search input{
+        width: 30vw ;
+        margin-left:0.1vw
+        }
+        h1{
+            font-size: 20px
+         }
 }
 
-@media all and (max-width:768px){
-    
+@media all and (max-width:480px){
+    body{
+        font-size: 14px;
+    }
+    .sosial img{
+        height:30px;
+    }
+    .search input{
+        width: 30vw ;
+        margin-left:-15px
+        }
 }

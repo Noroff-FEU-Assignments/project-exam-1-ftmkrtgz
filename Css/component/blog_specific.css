@@ -74,8 +74,8 @@
     border:1px solid black;
     font-size: 2vw;
     border-radius: 2vw;
-    
     padding:0 3vw;
+    cursor: pointer;
 }
 figure{
     position:relative
@@ -100,3 +100,57 @@ figure{
     transform: translate(-50%, -50%);
     width: 80%;
   }
+
+  @media all and (max-width:992px){
+    .blog-specific{
+        width: 90%;
+        font-size: 16px;
+    }
+    .blog-specific img{
+        width: 70%;
+    }
+  }
+
+  @media all and (max-width:768px){
+    .blog-specific{
+        width: 98%;
+    }
+    .blog-specific img{
+        width: 80%;
+    }
+    .fa-share, .fa-user, .fa-comment-dots, .fa-square-facebook, .fa-square-twitter, .fa-instagram, .fa-square-google-plus, .fa-envelope{
+        font-size: 4vw;
+    }
+    #explanation, #name, #mail{
+        width: 80%;
+    } 
+    #name, #mail{
+        height: 30px;
+    }
+    #read{
+       width: 20px;
+       height: 20px;
+    }
+    .button-contact{
+        font-size: 18px;
+    }
+} 
+  
+@media all and (max-width:670px){
+
+    .share{
+        margin-left:1.4vw;
+    }
+    .writer, .comments, .send-comment{
+        margin-left: 2.5vw;
+    }
+    #explanation, #name, #mail{
+        width: 90%;
+    } 
+}
+
+@media all and (max-width:480px){
+    .fa-share, .fa-user, .fa-comment-dots, .fa-square-facebook, .fa-square-twitter, .fa-instagram, .fa-square-google-plus, .fa-envelope{
+        font-size: 25px;
+    }
+}

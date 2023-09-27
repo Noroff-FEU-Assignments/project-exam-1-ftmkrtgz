@@ -12,7 +12,7 @@
     height: 100%;
     background-color:#F5F5F5 ;
     padding-left:4.2vw;
-    line-height: 2vw;
+    line-height: 3vw;
 }
 #contact-subject, #contact-name, #contact-mail{
     width:89%; 
@@ -50,10 +50,34 @@
   @media all and (max-width:900px){
     .contact{
         grid-template-columns: 90%;
-        font-size: 1.6vw;
+        font-size: 16px;
     }
 
     .submit{
-        margin:auto 0
+        margin:5px 0;
+        font-size: 18px;
+        width: 14vw;
+        height: 5.5vw;
     }
+  }
+
+  @media all and (max-width:768px){
+    .contact-form{
+        line-height: 30px;
+    }
+    #contact-subject, #contact-name, #contact-mail{
+        height: 30px;
+    }
+  }
+
+  @media all and (max-width:480px){
+   
+    .submit{
+        font-size: 18px;
+        width: 21vw;
+        height: 9vw;
+    }
+    .contact-error {
+        font-size: 12px;
+      }
   }
