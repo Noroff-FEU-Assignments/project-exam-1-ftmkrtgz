@@ -150,7 +150,15 @@ hr{
     border-radius: 8px;
     cursor: pointer;
 }
-
+.all-content{
+    background-color:rgba(238, 203, 236, 50%) ;
+    margin:3% 8%;
+    border: 1px solid lightgrey;
+}
+.all-content h2{
+    text-align: center;
+    font-weight: 600;
+}
 .read-book{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -167,16 +175,6 @@ hr{
 .added-content{
     width: 98%;
     margin:0 auto
-}
-
-.all-content{
-    background-color:rgba(238, 203, 236, 50%) ;
-    margin:3% 8%;
-    border: 1px solid lightgrey;
-}
-.all-content h2{
-    text-align: center;
-    font-weight: 600;
 }
 .expert{
     display: flex;
@@ -214,7 +212,7 @@ hr{
    text-align: center;
    font-weight: 600;
    }
-   .carousel-container {
+.carousel-container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -224,12 +222,9 @@ hr{
    .carousel-wrapper {
     display: flex;
     overflow-x: hidden;
-    scroll-behavior:smooth;
-    scroll-snap-type:mandatory;
     width:100%;
     height: 90%;
     gap: 2%;
-     
    }   
    
 .leftBtn, .rightBtn {
@@ -244,7 +239,8 @@ hr{
    .carousel-items {
     flex: 0 0 31.1999%; 
     background-color: rgba(238, 203, 236, 50%) ;  
-    border: 1px solid lightgrey;    
+    border: 1px solid lightgrey;   
+     
    }
    .carousel-items p{
     margin:0 3px
@@ -259,8 +255,22 @@ hr{
     margin-left: 0;
     
    }
+
+
+  
+
     
 /* Hamburger menu */
+@media all and (max-width:768px){
+ body{
+    font-size: 16px;
+ }
+ h1{
+    font-size: 16px;
+ }
+
+}
+
 @media all and (max-width:690px){
 .hamburger{
         display: block;
@@ -315,5 +325,4 @@ margin-left:6vw
     width: 40%;
     height: 15%;
 }
-
 }
