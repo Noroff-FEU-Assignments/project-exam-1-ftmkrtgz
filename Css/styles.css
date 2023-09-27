@@ -326,3 +326,23 @@ margin-left:6vw
     height: 15%;
 }
 }
+
+@media all and (max-width:768px){
+.logo a img{
+    width: 100px;
+    margin-top: 8px;
+}
+.about-img{
+    margin-top: -8px;
+}
+.sosial img{
+    height:40px;
+}
+h1{
+    font-size: 20px;
+}
+}
+
+@media all and (max-width:768px){
+    
+}
