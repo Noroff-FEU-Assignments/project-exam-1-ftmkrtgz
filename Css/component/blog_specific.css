@@ -32,7 +32,9 @@
 .fa-share, .fa-user, .fa-comment-dots, .fa-square-facebook, .fa-square-twitter, .fa-instagram, .fa-square-google-plus, .fa-envelope{
     font-size: 3vw;
 }
-
+.fa-square-facebook, .fa-square-twitter, .fa-instagram, .fa-square-google-plus, .fa-envelope{
+    margin-left:10px
+}
 .fa-share, .fa-user, .fa-comment-dots{
     color: gray;
 }
