@@ -257,6 +257,10 @@ hr{
     margin-left: 0;
     
    }
+   .error-label{
+    font-size: 0;
+    display: none;
+   }
    
 /* Hamburger menu */
 @media all and (max-width:1200px){
