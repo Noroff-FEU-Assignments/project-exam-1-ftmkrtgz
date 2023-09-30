@@ -68,7 +68,6 @@ a{
 .menu-name ul{
     list-style-type: none ;
 }
-
 .fa-magnifying-glass{
     margin-left: -90%;
     top: auto;
@@ -381,7 +380,7 @@ margin-left:6vw
 .go-about{
     margin-top: 0;
 }
-br{
+.space{
     display: none;
 }
 .read-more{

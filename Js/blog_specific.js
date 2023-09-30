@@ -45,7 +45,8 @@ function createHtml(details) {
  function  biggerImg() {
     let postImg = this;   
 
-    const modalSection = document.querySelector(".modal-section");
+     const modalSection = document.querySelector(".modal-section");
+    
      
     modalSection.style.display = "flex";
     modalSection.innerHTML = `<img src="${postImg.src}" alt="${postImg.alt}" />`
@@ -54,7 +55,8 @@ function createHtml(details) {
         if (event.target === modalSection) {
             modalSection.style.display = "none";
          }
-        
-    } 
+     } 
+     const close = document.querySelector(".fa-xmark")
+     close.onclick = function(){ modalSection.style.display = "none";}  
 }
 

@@ -56,6 +56,7 @@
 .author{
     color:rgb(80, 77, 77)
 }
+
 .writer, .comments, .send-comment{
     margin-left: 7.5vw;
 }
@@ -102,7 +103,7 @@ figure{
     transform: translate(-50%, -50%);
     width: 80%;
   }
-
+  
   @media all and (max-width:992px){
     .blog-specific{
         width: 90%;
@@ -145,6 +146,7 @@ figure{
     }
     .writer, .comments, .send-comment{
         margin-left: 2.5vw;
+        margin-right: 5px;
     }
     #explanation, #name, #mail{
         width: 90%;

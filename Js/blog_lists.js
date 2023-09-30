@@ -41,10 +41,11 @@ function createHtmlPosts(posts) {
     
 }
 
-window.addEventListener("load", ()=> {
-    const loader = document.querySelector(".loader");
-    loader.classList.add("loader--hidden");
-    loader.addEventListener("transitionend", () => {
+
+    window.addEventListener("load", () => {
+        const loader = document.querySelector(".loader");
+        loader.classList.add("loader--hidden");
+        loader.addEventListener("transitionend", () => {
         
+        })
     })
-})

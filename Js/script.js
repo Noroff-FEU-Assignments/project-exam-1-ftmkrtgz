@@ -1,5 +1,6 @@
 import { message } from "./component/message.js";
 
+
 const readMore = document.querySelector(".read-more");
 
 readMore.onclick= function(){
@@ -19,7 +20,6 @@ async function getPostsCarousel(url) {
     try {
         const response = await fetch(url);
         const posts = await response.json();
-        console.log(posts);
         posts.forEach(function (post) {
             carouselWrapper.innerHTML +=
                 `<div class="carousel-items"><a href="blog_specific.html?id=${post.id}">
@@ -54,8 +54,13 @@ rightButton.addEventListener("click", () => {
  
 });
 
-
-
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+    loader.classList.add("loader--hidden");
+    loader.addEventListener("transitionend", () => {
+    
+    })
+})
 
 
 
