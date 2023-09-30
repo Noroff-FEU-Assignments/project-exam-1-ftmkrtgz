@@ -1,7 +1,6 @@
 :root {
     --primary-colour: #b3193d;
 }
-
 .error{
     border: 1px solid var(--primary-colour);
     color:var(--primary-colour);
@@ -23,12 +22,10 @@
     align-items: center;
     transition: 0.75s, visibility 3s;
 }
-
 .loader--hidden{
     opacity: 0;
     visibility: hidden;
 }
-
 .loader::after{
     content:"";
     width:75px;
@@ -38,6 +35,7 @@
     border-radius: 50%;
     animation:loading 0.75s ease infinite;
 }
+
 @keyframes loading{
     from {
         transform:rotate(0turn);
