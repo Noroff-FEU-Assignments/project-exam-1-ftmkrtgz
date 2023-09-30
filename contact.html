@@ -25,7 +25,7 @@
         a.appendChild(r);
       })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
     </script>
-    <script defer type="module" src="Js/contact.js"></script>
+    <script defer src="Js/contact.js"></script>
   </head>
   <body>
     <header>
@@ -48,7 +48,14 @@
         <div class="search">
           <ul>
             <li class="hamburger-list">
-              <input type="text" placeholder="Search..." class="search" />
+              <label for="search">
+                <input
+                  id="search"
+                  type="text"
+                  placeholder="Search..."
+                  class="search"
+                />
+              </label>
             </li>
             <li class="hamburger-list">
               <i class="fa-solid fa-magnifying-glass"></i>
@@ -71,7 +78,7 @@
           <p class="contact-defn">
             You can contact us by filling out the form.
           </p>
-          <label for="name">
+          <label for="contact-name">
             Name & Surname <br />
             <input id="contact-name" name="name&surname" type="text" />
             <br />
@@ -79,7 +86,7 @@
           <p class="contact-error" id="NameError">
             Name should be more than 5 characters long
           </p>
-          <label for="mail">
+          <label for="contact-mail">
             E-post <br />
             <input id="contact-mail" name="e-mail" type="email" />
             <br />
@@ -87,7 +94,7 @@
           <p class="contact-error" id="emailError">
             Must be a valid email adress
           </p>
-          <label for="subject">
+          <label for="contact-subject">
             Subject <br />
             <input id="contact-subject" name="subject" type="text" />
             <br />
@@ -95,7 +102,7 @@
           <p class="contact-error" id="subjectError">
             Subject should be more than 15 characters long
           </p>
-          <label for="explanation">
+          <label for="contact-explanation">
             Message <br />
             <textarea
               name="explanation"
