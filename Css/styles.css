@@ -4,7 +4,10 @@
 @import url(component/contact.css);
 @import url(ui.css);
 
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,7 +16,6 @@ body{
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    overflow-x: hidden;
 }
 
 .navbar{
@@ -92,7 +94,7 @@ a{
 h2{
     font-weight: normal;
     margin-left: 3.5vw;
-    font-size: 2vw;
+    font-size: 20px;
 }
 
 hr{
@@ -125,6 +127,7 @@ hr{
 /* main section at home */
 
 .first-section{
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 40% 40%;
     gap: 5%;
@@ -177,7 +180,7 @@ hr{
     margin:0 auto
 }
 .expert{
-    display: flex;
+    display: grid;
     grid-template-columns: 40% 40%;
     justify-content: center;
     margin-left: 8%;
@@ -221,7 +224,7 @@ hr{
            
    .carousel-wrapper {
     display: flex;
-    overflow-x: hidden;
+    overflow: hidden;
     width:100%;
     height: 90%;
     gap: 2%;
@@ -255,16 +258,34 @@ hr{
     margin-left: 0;
     
    }
-
-
-  
-
-    
+   
 /* Hamburger menu */
+@media all and (max-width:1200px){
+    .read-book{
+        grid-template-columns: 100%
+    }    
+
+}
+@media all and (max-width:992px){
+    .carousel-items {
+        flex: 0 0 47.95%; 
+       }
+       .carousel-items img{
+        height: 60%;
+       }
+       .leftBtn, .rightBtn {
+        margin-top: 30%;
+    } 
+    .expert img{
+        width: 90%;
+        height: 13%;
+    }
+    .carousel-items h2{
+        font-size: 20px;
+    }
+}
 @media all and (max-width:768px){
- body{
-    overflow-x: hidden;
- }
+ 
  h1{
     font-size: 4vw
  }
@@ -272,11 +293,28 @@ hr{
     width: 100px;
     margin-top: 8px;
 }
-
 .sosial img{
     height:40px;
 }
-
+.carousel-items {
+    flex: 0 0 98%; 
+   }
+.leftBtn, .rightBtn {
+    margin-top: 50%;
+} 
+.carousel-items img{
+    height: 70%;
+   }   
+.first-section{
+    grid-template-columns: 45% 45%;
+}
+.expert{
+    grid-template-columns: 90%;
+}
+.expert img{
+    width: 85%;
+    height: 28%;
+}
 }
 
 @media all and (max-width:700px){
@@ -336,9 +374,48 @@ margin-left:6vw
     width: 40%;
     height: 15%;
 }
+.first-section{
+    grid-template-columns: 80%;
+    gap: 0;
 }
-
+.go-about{
+    margin-top: 0;
+}
+br{
+    display: none;
+}
+.read-more{
+    
+    font-size: 16px;
+    margin-left: 60%;
+    margin-top: 0;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 15px;
+   
+}
+.expert img{
+    width: 90%;
+    height: 25%;
+}
+}
+@media all and (max-width:556px){
+.read-more{
+    width: 30%;
+    height: 20%;
+}
+.expert img{
+    width: 90%;
+    height: 18%;
+}
+.carousel-items img{
+    height: 60%;
+}
+}
 @media all and (max-width:480px){
+    .first-section{
+        grid-template-columns: 96%;
+    }
     .sosial img{
         height:35px;
     }
@@ -349,17 +426,26 @@ margin-left:6vw
         h1{
             font-size: 20px
          }
+
+         .leftBtn, .rightBtn {
+            font-size:8.5vw;
+        } 
+        .carousel-items p{
+            display: none;
+        }
+        .carousel-items h2{
+            font-size: 18px;
+        }
+       .all-content{
+        margin:3% 2%
+       }
+       .expert{
+        margin:0 2%
+       }
+       .expert img{
+        width: 80%;
+        height: 10%;
+    }
 }
 
-@media all and (max-width:480px){
-    body{
-        font-size: 14px;
-    }
-    .sosial img{
-        height:30px;
-    }
-    .search input{
-        width: 30vw ;
-        margin-left:-15px
-        }
-}
+
