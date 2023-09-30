@@ -8,12 +8,10 @@ readMore.onclick= function(){
 };
  
 const baseUrl = "https://blog.gulce.no/wp-json/wp/v2/posts?per_page=100&_embed";
-const carouselContent=document.querySelector(".carousel-container")
 const carouselWrapper = document.querySelector(".carousel-wrapper");
 const errorMessage = document.querySelector(".error-message");
 const leftButton = document.querySelector(".leftBtn");
 const rightButton = document.querySelector(".rightBtn");
-const carouselItems = document.querySelectorAll('.carousel-items');
 
 
 async function getPostsCarousel(url) {

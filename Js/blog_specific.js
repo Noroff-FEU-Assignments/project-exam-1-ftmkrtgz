@@ -31,12 +31,12 @@ async function getSinglePost() {
 getSinglePost();
 
 function createHtml(details) {
-    detailContainer.innerHTML = `
-    <h1>${details.title.rendered}</h1>
-   ${details.content.rendered}
-   <div class="modal-section">
-    </div>
-    `
+            detailContainer.innerHTML = `
+            <h1>${details.title.rendered}</h1>
+            ${details.content.rendered}
+            <div class="modal-section">
+            </div>
+            `
     const clickImg = document.querySelector("figure img");
             clickImg.addEventListener("click", biggerImg);
 }
