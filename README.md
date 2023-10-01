@@ -57,7 +57,7 @@ Note that this is an exam, and therefore tutor support will be limited as per th
 6.	Install Hotjar on your website.
 7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
 8.	Write a report documenting your project (template provided in this repository).
-9.	Submit your report as a PDF and a link to both your Netlify deployment ( https://childevelopment.netlify.app/ ) and your GitHub repo. 
+9.	Submit your report as a PDF and a link to both your Netlify deployment ( https://childevelopment.netlify.app/ ) and your GitHub repo ( https://github.com/Noroff-FEU-Assignments/project-exam-1-ftmkrtgz.git ). 
  
 ## Level 2 Process (optional)
 
