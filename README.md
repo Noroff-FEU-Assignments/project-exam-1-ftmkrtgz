@@ -1,47 +1,40 @@
-# Your project title
+# Child Development
 
-![ChildDevelopment](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![ChildDevelopment](https://github.com/Noroff-FEU-Assignments/project-exam-1-ftmkrtgz/blob/main/images/project-exam1.png)
 
-A simple overview of the use/purpose of the project.
+For my project exam i was tasked with creating a blog site.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+Child development is a blog site made about both the physical and mental development of children.
 
-You can add some bullet points if you'd like to:
+This website which was project exam for school in the first year is created with JavaScript, HTML and CSS. Content is served from a headless Wordpress installation. The posts are stored on a WordPress database and are fetched dinamically by calling the WordPress API. The blog has an appealing look, is user-friendly, responsive, and follows WCAG guidelines for accessibility.
 
-- List item 1
-- List item 2
-- List item 3
+Site architecture:
+
+- Home Page
+- Blog Lists Page
+- Blog Specific Page (To see the detailed posts)
+- About Page
+- Contact Page
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- Html
+- Css
+- Javascript
 
 ## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
-1. Clone the repo:
+Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
+git clone git@github.com:Noroff-FEU-Assignments/project-exam-1-ftmkrtgz.git
 ```
 
 ### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
 
 To run the app, run the following commands:
 
@@ -51,12 +44,8 @@ npm run start
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+If you would like to contribute to my project - Just make a pull request and push your changes.
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page](https://www.linkedin.com/in/fatma-kurtgözü-5693aa288)
