@@ -46,6 +46,18 @@ npm run start
 
 If you would like to contribute to my project - Just make a pull request and push your changes.
 
+## Links
+
+| Resource         | url                                                                                                                                                                                                                                                                                                                                                                                                |
+| :--------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Design Prototype | [Dekstop](https://www.figma.com/proto/OAuRRuv0z0l2YxXzfhSqck/project-exam-1-ftmkrtgz?node-id=3-17&node-type=frame&t=Cma7LFVVcwBIspp4-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=74%3A89)|
+| Repository       | [Github Link](https://github.com/Noroff-FEU-Assignments/project-exam-1-ftmkrtgz)                                                                                                                                                                                                                                                                                                                                      |
+| Hosted Demo      | [Netlify](https://childevelopment.netlify.app/)           |
+
+
+
 ## Contact
+
+[My Portfolio Page](https://fatma-krtgz.netlify.app/)
 
 [My LinkedIn page](https://www.linkedin.com/in/fatma-kurtgözü-5693aa288)
